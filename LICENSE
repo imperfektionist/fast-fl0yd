@@ -1,6 +1,6 @@
-MIT License
+FAST FL0YD Visualizer - MIT License
 
-Copyright (c) 2024 Anton Ho
+Copyright (c) 2024 Anton Hoyer
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,44 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+CONDITIONS
+
+When using the FAST FL0YD Visualizer, you must acknowledge its use by
+mentioning: "FAST FL0YD Visualizer by Anton Hoyer [https://antonhoyer.com]".
+
+The source code of the FAST FL0YD Visualizer is publicly available and can be
+accessed at [https://github.com/imperfektionist/fast-fl0yd].
+
+Please acknowledge the use of Processing [https://processing.org] and FFmpeg
+[https://ffmpeg.org].
+
+
+ACKNOWLEDGEMENTS
+
+Timekeeper: Song by Lars-Ole Kremer [https://larsolekremer.com/], all
+rights reserved to him.
+
+Processing: An open-source graphical library and integrated development
+environment (IDE) for the electronic arts, new media art, and visual design
+communities. [https://processing.org]
+
+Video Export by Hamoid (Abe Pazos): A Processing library that enables video
+export capabilities. [https://funprogramming.org/VideoExport-for-Processing/]
+
+Sound by Processing: A library for audio playback and sound analysis,
+providing essential tools for audio visualization.
+[https://processing.org/reference/libraries/sound/index.html]
+
+FFmpeg: A powerful multimedia framework for handling video, audio, and other
+multimedia files and streams. This tool is used for video processing and
+export. [https://ffmpeg.org]
+
+JFrame: Part of the Java Swing library, JFrame is used to create windows
+for the graphical user interface. This is included in the Java Development
+Kit (JDK).
+
+Please note that the use of these packages is subject to their respective
+licenses. Refer to the documentation for each library for specific licensing
+details and attributions.

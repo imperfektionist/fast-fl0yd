@@ -8,3 +8,19 @@ application.windows32
 application.windows64
 application.macosx
 out
+[Rr]elease/
+
+*.mp3
+*.m4a
+*.wav
+*.m4a
+*.txt
+*.py
+
+data/audio_input/*
+!data/audio_input/
+data/video_output/*
+!data/video_output/
+
+# Allow demo song
+!timekeeper.mp3
