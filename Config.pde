@@ -194,7 +194,7 @@ class Config {
 
             // FLOYD SETTINGS
           } else if (key.equals("floydsRange") && !initialLoadDone) {
-            floydsRange = constrainInts(parseIntRange(value), 1, 9999);
+            floydsRange = constrainInts(parseIntRange(value), 1, 999);
             printToConsole("--> Floyds range set to: " + java.util.Arrays.toString(floydsRange));
           } else if (key.equals("activateFloydRate")) {
             activateFloydRate = constrain(Float.parseFloat(value), 1, 999);
