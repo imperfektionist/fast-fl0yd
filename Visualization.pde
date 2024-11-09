@@ -17,9 +17,13 @@ class Visualization {
     this.config = config;
     floyds = new Floyd[config.floydsRange[1]];
 
-    // Initialize all Floyds as inactive
+    // Initialize all Floyds, set min number active
+    int floydsToActivate = config.floydsRange[0];
     for (int i = 0; i < floyds.length; i++) {
       floyds[i] = new Floyd(config);
+      if (floydsToActivate-- > 0) {  // need to activate more
+        floyds[i].active = true;
+      }      
     }
 
     masterFloyd = new MasterFloyd(config);
